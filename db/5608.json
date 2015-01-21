@@ -1,0 +1,5 @@
+{
+  "rating": 2,
+  "tex": "@incollection{NIPS2014_5608,title = {Incremental Clustering: The Case for Extra Clusters},author = {Ackerman, Margareta and Dasgupta, Sanjoy},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {307--315},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5608-incremental-clustering-the-case-for-extra-clusters.pdf}}",
+  "id": "5608"
+}

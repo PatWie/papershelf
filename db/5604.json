@@ -1,0 +1,5 @@
+{
+  "rating": 2,
+  "tex": "@incollection{NIPS2014_5604,title = {PAC-Bayesian AUC classification and scoring},author = {Ridgway, James and Alquier, Pierre and Chopin, Nicolas and Liang, Feng},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {658--666},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5604-pac-bayesian-auc-classification-and-scoring.pdf}}",
+  "id": "5604"
+}

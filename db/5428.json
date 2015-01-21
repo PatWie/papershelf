@@ -1,0 +1,5 @@
+{
+  "rating": 3,
+  "tex": "@incollection{NIPS2014_5428,title = {Fast and Robust Least Squares Estimation in Corrupted Linear Models},author = {McWilliams, Brian and Krummenacher, Gabriel and Lucic, Mario and Buhmann, Joachim M},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {415--423},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5428-fast-and-robust-least-squares-estimation-in-corrupted-linear-models.pdf}}",
+  "id": "5428"
+}

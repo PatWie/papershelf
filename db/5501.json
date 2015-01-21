@@ -1,0 +1,5 @@
+{
+  "rating": 3,
+  "tex": "@incollection{NIPS2014_5501,title = {Bayes-Adaptive Simulation-based Search with Value Function Approximation},author = {Guez, Arthur and Heess, Nicolas and Silver, David and Dayan, Peter},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {451--459},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5501-bayes-adaptive-simulation-based-search-with-value-function-approximation.pdf}}",
+  "id": "5501"
+}

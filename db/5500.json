@@ -1,0 +1,5 @@
+{
+  "rating": 3,
+  "tex": "@incollection{NIPS2014_5500,title = {Positive Curvature and Hamiltonian Monte Carlo},author = {Seiler, Christof and Rubinstein-Salzedo, Simon and Holmes, Susan},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {586--594},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5500-positive-curvature-and-hamiltonian-monte-carlo.pdf}}",
+  "id": "5500"
+}

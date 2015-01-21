@@ -1,0 +1,5 @@
+{
+  "rating": 5,
+  "tex": "@incollection{NIPS2014_5435,title = {Beyond Disagreement-Based Agnostic Active Learning},author = {Zhang, Chicheng and Chaudhuri, Kamalika},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {442--450},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5435-beyond-disagreement-based-agnostic-active-learning.pdf}}",
+  "id": "5435"
+}

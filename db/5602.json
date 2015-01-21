@@ -1,0 +1,5 @@
+{
+  "rating": 5,
+  "tex": "@incollection{NIPS2014_5602,title = {Causal Inference through a Witness Protection Program},author = {Silva, Ricardo and Evans, Robin},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {298--306},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5602-causal-inference-through-a-witness-protection-program.pdf}}",
+  "id": "5602"
+}

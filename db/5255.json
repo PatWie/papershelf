@@ -1,0 +1,5 @@
+{
+  "rating": 3,
+  "tex": "@incollection{NIPS2014_5255,title = {On the Convergence Rate of Decomposable Submodular Function Minimization},author = {Nishihara, Robert and Jegelka, Stefanie and Jordan, Michael I},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {640--648},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5255-on-the-convergence-rate-of-decomposable-submodular-function-minimization.pdf}}",
+  "id": "5255"
+}

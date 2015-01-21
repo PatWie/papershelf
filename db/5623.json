@@ -1,0 +1,5 @@
+{
+  "rating": 2,
+  "tex": "@incollection{NIPS2014_5623,title = {Spike Frequency Adaptation Implements Anticipative Tracking in Continuous Attractor Neural Networks},author = {Mi, Yuanyuan and Fung, C. C. Alan and Wong, K. Y. Michael and Wu, Si},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {505--513},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5623-spike-frequency-adaptation-implements-anticipative-tracking-in-continuous-attractor-neural-networks.pdf}}",
+  "id": "5623"
+}

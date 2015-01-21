@@ -1,0 +1,5 @@
+{
+  "rating": 5,
+  "tex": "@incollection{NIPS2014_5591,title = {Semi-Separable Hamiltonian Monte Carlo for Inference in Bayesian Hierarchical Models},author = {Zhang, Yichuan and Sutton, Charles},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {10--18},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5591-semi-separable-hamiltonian-monte-carlo-for-inference-in-bayesian-hierarchical-models.pdf}}",
+  "id": "5591"
+}

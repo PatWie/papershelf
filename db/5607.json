@@ -1,0 +1,5 @@
+{
+  "rating": 2,
+  "tex": "@incollection{NIPS2014_5607,title = {Extracting Certainty from Uncertainty: Transductive Pairwise Classification from Pairwise Similarities},author = {Yang, Tianbao and Jin, Rong},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {262--270},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5607-extracting-certainty-from-uncertainty-transductive-pairwise-classification-from-pairwise-similarities.pdf}}",
+  "id": "5607"
+}

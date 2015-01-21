@@ -1,0 +1,5 @@
+{
+  "rating": 2,
+  "tex": "@incollection{NIPS2014_5349,title = {Learning Deep Features for Scene Recognition using Places Database},author = {Zhou, Bolei and Lapedriza, Agata and Xiao, Jianxiong and Torralba, Antonio and Oliva, Aude},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {487--495},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5349-learning-deep-features-for-scene-recognition-using-places-database.pdf}}",
+  "id": "5349"
+}

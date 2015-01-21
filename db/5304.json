@@ -1,0 +1,5 @@
+{
+  "rating": 5,
+  "tex": "@incollection{NIPS2014_5304,title = {On a Theory of Nonparametric Pairwise Similarity for Clustering: Connecting Clustering to Classification},author = {Yang, Yingzhen and Liang, Feng and Yan, Shuicheng and Wang, Zhangyang and Huang, Thomas S},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {145--153},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5304-on-a-theory-of-nonparametric-pairwise-similarity-for-clustering-connecting-clustering-to-classification.pdf}}",
+  "id": "5304"
+}

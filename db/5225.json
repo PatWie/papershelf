@@ -1,0 +1,5 @@
+{
+  "rating": 2,
+  "tex": "@incollection{NIPS2014_5225,title = {Learning Mixed Multinomial Logit Model from Ordinal Data},author = {Oh, Sewoong and Shah, Devavrat},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {595--603},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5225-learning-mixed-multinomial-logit-model-from-ordinal-data.pdf}}",
+  "id": "5225"
+}

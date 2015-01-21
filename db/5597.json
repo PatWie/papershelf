@@ -1,0 +1,5 @@
+{
+  "rating": 0,
+  "tex": "@incollection{NIPS2014_5597,title = {Communication Efficient Distributed Machine Learning with the Parameter Server},author = {Li, Mu and Andersen, David G and Smola, Alex J and Yu, Kai},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {19--27},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5597-communication-efficient-distributed-machine-learning-with-the-parameter-server.pdf}}",
+  "id": "5597"
+}

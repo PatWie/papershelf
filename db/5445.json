@@ -1,0 +1,5 @@
+{
+  "rating": 4,
+  "tex": "@incollection{NIPS2014_5445,title = {Near-optimal Reinforcement Learning in Factored MDPs},author = {Osband, Ian and Van Roy, Benjamin},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {604--612},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5445-near-optimal-reinforcement-learning-in-factored-mdps.pdf}}",
+  "id": "5445"
+}

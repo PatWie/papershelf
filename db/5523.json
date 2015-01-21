@@ -1,0 +1,5 @@
+{
+  "rating": 2,
+  "tex": "@incollection{NIPS2014_5523,title = {A State-Space Model for Decoding Auditory Attentional Modulation from MEG in a Competing-Speaker Environment},author = {Akram, Sahar and Simon, Jonathan Z and Shamma, Shihab A and Babadi, Behtash},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {460--468},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5523-a-state-space-model-for-decoding-auditory-attentional-modulation-from-meg-in-a-competing-speaker-environment.pdf}}",
+  "id": "5523"
+}

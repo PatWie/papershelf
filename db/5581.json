@@ -1,0 +1,5 @@
+{
+  "rating": 1,
+  "tex": "@incollection{NIPS2014_5581,title = {Coresets for k-Segmentation of Streaming Data},author = {Rosman, Guy and Volkov, Mikhail and Feldman, Dan and Fisher III, John W and Rus, Daniela},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {559--567},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5581-coresets-for-k-segmentation-of-streaming-data.pdf}}",
+  "id": "5581"
+}

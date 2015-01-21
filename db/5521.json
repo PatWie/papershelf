@@ -1,0 +1,5 @@
+{
+  "rating": 3,
+  "tex": "@incollection{NIPS2014_5521,title = {Permutation Diffusion Maps (PDM) with Application to the Image Association Problem in Computer Vision},author = {Pachauri, Deepti and Kondor, Risi and Sargur, Gautam and Singh, Vikas},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {541--549},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5521-permutation-diffusion-maps-pdm-with-application-to-the-image-association-problem-in-computer-vision.pdf}}",
+  "id": "5521"
+}

@@ -1,0 +1,5 @@
+{
+  "rating": 0,
+  "tex": "@incollection{NIPS2014_5502,title = {Altitude Training: Strong Bounds for Single-Layer Dropout},author = {Wager, Stefan and Fithian, William and Wang, Sida and Liang, Percy S},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {100--108},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5502-altitude-training-strong-bounds-for-single-layer-dropout.pdf}}",
+  "id": "5502"
+}

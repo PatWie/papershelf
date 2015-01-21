@@ -1,0 +1,5 @@
+{
+  "rating": 3,
+  "tex": "@incollection{NIPS2014_5406,title = {Sparse PCA via Covariance Thresholding},author = {Deshpande, Yash and Montanari, Andrea},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {334--342},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5406-sparse-pca-via-covariance-thresholding.pdf}}",
+  "id": "5406"
+}

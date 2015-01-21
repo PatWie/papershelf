@@ -1,0 +1,5 @@
+{
+  "rating": 5,
+  "tex": "@incollection{NIPS2014_5492,title = {From MAP to Marginals: Variational Inference in Bayesian Submodular Models},author = {Djolonga, Josip and Krause, Andreas},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {244--252},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5492-from-map-to-marginals-variational-inference-in-bayesian-submodular-models.pdf}}",
+  "id": "5492"
+}

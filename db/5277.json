@@ -1,0 +1,5 @@
+{
+  "rating": 5,
+  "tex": "@incollection{NIPS2014_5277,title = {Iterative Neural Autoregressive Distribution Estimator NADE-k},author = {Raiko, Tapani and Li, Yao and Cho, Kyunghyun and Bengio, Yoshua},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {325--333},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5277-iterative-neural-autoregressive-distribution-estimator-nade-k.pdf}}",
+  "id": "5277"
+}

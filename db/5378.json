@@ -1,0 +1,5 @@
+{
+  "rating": 1,
+  "tex": "@incollection{NIPS2014_5378,title = {Stochastic Multi-Armed-Bandit Problem with Non-stationary Rewards},author = {Gur, Yonatan and Zeevi, Assaf and Besbes, Omar},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {199--207},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5378-stochastic-multi-armed-bandit-problem-with-non-stationary-rewards.pdf}}",
+  "id": "5378"
+}

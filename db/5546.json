@@ -1,0 +1,5 @@
+{
+  "rating": 3,
+  "tex": "@incollection{NIPS2014_5546,title = {Multi-View Perceptron: a Deep Model for Learning Face Identity and View Representations},author = {Zhu, Zhenyao and Luo, Ping and Wang, Xiaogang and Tang, Xiaoou},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {217--225},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5546-multi-view-perceptron-a-deep-model-for-learning-face-identity-and-view-representations.pdf}}",
+  "id": "5546"
+}

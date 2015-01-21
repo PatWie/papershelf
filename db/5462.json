@@ -1,0 +1,5 @@
+{
+  "rating": 1,
+  "tex": "@incollection{NIPS2014_5462,title = {Efficient learning by implicit exploration in bandit problems with side observations},author = {Koc\'{a}k, Tom\'{a}\v{s} and Neu, Gergely and Valko, Michal and Munos, Remi},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {613--621},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5462-efficient-learning-by-implicit-exploration-in-bandit-problems-with-side-observations.pdf}}",
+  "id": "5462"
+}

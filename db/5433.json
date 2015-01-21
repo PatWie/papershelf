@@ -1,0 +1,5 @@
+{
+  "rating": 5,
+  "tex": "@incollection{NIPS2014_5433,title = {Combinatorial Pure Exploration of Multi-Armed Bandits},author = {Chen, Shouyuan and Lin, Tian and King, Irwin and Lyu, Michael R and Chen, Wei},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {379--387},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5433-combinatorial-pure-exploration-of-multi-armed-bandits.pdf}}",
+  "id": "5433"
+}

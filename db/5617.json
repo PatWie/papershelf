@@ -1,0 +1,5 @@
+{
+  "rating": 1,
+  "tex": "@incollection{NIPS2014_5617,title = {large scale canonical correlation analysis with iterative least squares},author = {Lu, Yichao and Foster, Dean P},booktitle = {Advances in Neural Information Processing Systems 27},editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},pages = {91--99},year = {2014},publisher = {Curran Associates, Inc.},url = {http://papers.nips.cc/paper/5617-large-scale-canonical-correlation-analysis-with-iterative-least-squares.pdf}}",
+  "id": "5617"
+}
