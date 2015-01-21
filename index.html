@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" ng-app="papershelfApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>PaperShelf</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <style>
+        body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+    </style>
+    <link rel="stylesheet/less" type="text/css" href="css/main.less" />
+    <link rel="stylesheet/less" type="text/css" href="css/icons.css" />
+    <link rel="stylesheet/less" type="text/css" href="css/massautocomplete.theme.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="app/vendor/less.min.js"></script>
+    <script src="app/vendor/fuse.js"></script>
+    <script src="app/vendor/bibparser.js"></script>
+    <script src="app/vendor/dropzone.js"></script>
+    <script src="app/vendor/ZeroClipboard.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular-sanitize.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body ng-controller="PapersCtrl">
+    <div id="overview" >
+            
+            <!--<button><i class="cus-database"></i> backup</button>-->
+
+        <div mass-autocomplete>
+            <button ng-click="addPaper()"><i class="cus-asterisk-orange"></i> new</button>
+            <input ng-model="query.value" mass-autocomplete-item="autocomplete_options">
+        </div>
+
+
+        <table class="fixed_headers">
+            <tr>
+                <th>bibkey</th>
+                <th>title</th>
+                <th>authors</th>
+                <th>year</th>
+                <th>journal</th>
+                <th>rating</th>
+            </tr>
+            <tbody>
+                <tr ng-repeat="paper in papers | filter:query.value" ng-click="loadDetails(paper.id)">
+                    <td>{{paper.tex.entries[0].EntryKey}}</td> <!---->
+                    <td>{{paper.tex.entries[0].Fields.title| limitTo: 55}}</td>
+                    <td>{{paper.tex.entries[0].Fields.author | limitTo: 35}}</td>
+                    <td>{{paper.tex.entries[0].Fields.year}}</td>
+                    <td>{{paper.tex.entries[0].Fields.journal}}</td>
+                    <td><rating score="paper.rating" max="5" /></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="preview"  dropzone="dropzoneConfig">
+<div id="upload-pgr" ng-style="{ 'width' : uploadstep }" style="height:3px; width:0%; background-color:red;">&nbsp;</div>
+       <span ng-hide="details.jpg">{{dragtext}}</span>
+       <img src="{{details.jpg}}" style="width:100%;height:auto;"/>
+    </div>
+    <div id="sidebar" >
+        <button id="copy_bib" data-clipboard-target="rawtext"><i class="cus-book"></i> bibtex</button>
+        <!--<button><i class="cus-email"></i> share</button>-->
+        <button ng-click="persistPaper()"><i class="cus-disk"></i> save</button>
+        <!--<button><i class="cus-delete"></i> delete</button>-->
+        <a class="btn" ng-show="details.pdf" target="_blank" ng-href="{{details.pdf}}"><i class="cus-doc-pdf"></i> pdf</a>
+        <button ng-show="details.url"><i class="cus-link"></i> url</button>
+        <textarea class="bib title" ng-model="details.tex.entries[0].Fields.title"></textarea>
+        <input type="text" class="bib author" value="" ng-model="details.tex.entries[0].Fields.author" />
+        <br>
+        <input type="text" class="bib year" value="" ng-model="details.tex.entries[0].Fields.year" />
+        <input type="text" class="bib journal" value="" ng-model="details.tex.entries[0].Fields.journal" />
+        <textarea class="bib tex" ng-model="rawtex" id="rawtext"></textarea>
+        <input type="text" class="bib key" value="" ng-model="details.tex.entries[0].EntryKey" />
+        <div rating style="float:right; width:50%;" score="details.rating" max="5" ></div>
+        <div class="internid">{{details.id}}</div>
+        
+        
+
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')
+    </script>
+    <script src="app/controllers.js"></script>
+    <script src="app/directives.js"></script>
+    <script src="app/massautocomplete.min.js"></script>
+
+</body>
+
+</html>
