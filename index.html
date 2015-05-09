@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang=""  ng-app="papershelfApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/icons.css">
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular-sanitize.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.4/angular-filter.min.js"></script>
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/vendor/ZeroClipboard.min.js"></script>
+        <script src="js/vendor/bibparser.js"></script>
+        <script src="js/vendor/dropzone.js"></script>
+    </head>
+    <body ng-controller="PapersCtrl">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="toppane">
+            <input type="text" class="search" id="search_id" value="" ng-model="query.value" >
+        </div>
+        <div class="leftpane size"></div>
+        <div class="middlepane size">
+
+            <div class="entry" ng-repeat="paper in papers  | fuzzyBy: 'tex.entries[0].Fields.title': query.value" ng-click="loadDetails(paper.id)">
+                <span class="title" ng-bind-html="paper.tex.entries[0].Fields.title | emph:query.value"></span>
+                <span class="date">{{paper.tex.entries[0].Fields.year}}</span><br>
+                <span class="author">{{paper.tex.entries[0].Fields.author }}</span>
+                <span class="journal">{{paper.tex.entries[0].Fields.journal}}</span>
+            </div>
+        </div>
+        <div class="rightpane size">
+            <div class="tools">
+            <input type="text" class="item bibkey " value="" ng-model="details.tex.entries[0].EntryKey">
+            <button id="copy_bib" class="hidebtn" data-clipboard-target="rawtext"><i class="cus-book"></i></button>
+                <a href="#" ng-show="details.pdf" target="_blank" ng-href="{{details.pdf}}"><i class="cus-doc-pdf" ></i></a>
+                <a href="{{details.tex.entries[0].Fields.url}}"ng-show="details.tex.entries[0].Fields.url"  target="_blank" ><i class="cus-link"></i></a>
+                <a  ng-click="persistPaper()"><i class="cus-disk"></i></a>
+                <a ng-click="addPaper()"><i class="cus-asterisk-orange"></i></a>
+            </div>
+
+            <div id="preview"  dropzone="dropzoneConfig" style="background-color:white;">
+                <div id="upload-pgr" ng-style="{ 'width' : uploadstep }" 
+                    style="height:3px; width:0%; background-color:red;">&nbsp;</div>
+                <img class="coverimg" src="{{details.jpg | addtoken}}" style="width:100%;height:auto;max-height:214px;"/>
+            </div>
+
+        <input type="text" class="item journal" value="" ng-model="details.tex.entries[0].Fields.journal">
+        <input type="text" class="item year" value="" ng-model="details.tex.entries[0].Fields.year">
+        <textarea class="item title" id="title_detail" onchange="grow();" ng-model="details.tex.entries[0].Fields.title"></textarea>
+        <input type="text" class="item author" value="" ng-model="details.tex.entries[0].Fields.author">
+        <textarea class="item bibtex" id="rawtext" ng-model="rawtex"></textarea>
+
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

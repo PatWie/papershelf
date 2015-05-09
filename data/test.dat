@@ -1,0 +1,16 @@
+id:  t269ovsrtchaorbarray(1) {
+  ["file"]=>
+  array(5) {
+    ["name"]=>
+    string(8) "5225.pdf"
+    ["type"]=>
+    string(15) "application/pdf"
+    ["tmp_name"]=>
+    string(14) "/tmp/php2mg8pw"
+    ["error"]=>
+    int(0)
+    ["size"]=>
+    int(331241)
+  }
+}
+There is no error, the file uploaded with success.tempFile:  /tmp/php2mg8pwtarget:  ../db/t269ovsrtchaorb.pdf
