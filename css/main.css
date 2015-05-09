@@ -1,0 +1,407 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    margin:0;
+    padding:0;
+}
+
+body, html{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.size{
+    /* Firefox */
+    height: -moz-calc(100% - 35px);
+    /* WebKit */
+    height: -webkit-calc(100% - 35px);
+    /* Opera */
+    height: -o-calc(100% - 35px);
+    /* Standard */
+    height: calc(100% - 35px);
+}
+
+.toppane{
+    background-color: #2174B1;
+    height:35px;
+}
+
+.search{
+    margin:4px 10px 4px 10px;
+    width:200px;
+    -webkit-transition: width 1s ease;  
+    -moz-transition: width 1s ease;  
+    -o-transition: width 1s ease;  
+    -ms-transition: width 1s ease;  
+    transition: width 1s ease; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    border: none;
+    height:20px;
+}
+
+.search:focus{
+    width:400px;
+}
+
+.leftpane{
+    background-color: #373F45;
+    height: 100%;
+    width:2%;
+    float: left;
+}
+.middlepane{
+    border-right: 1px solid #9DA4AC;
+    height: 100%;
+    width:50%;
+    float: left;
+    background-color: #F3F3F7;
+    overflow-y: scroll;
+}
+.rightpane{
+    box-sizing: border-box;
+    height: 100%;
+    width:40%;
+    float: left;
+    padding:2px 7px 2px 7px;
+}
+
+.rightpane .tools{text-align: right; margin-bottom: 15px;}
+
+.entry{
+    height: 50px;
+    border-bottom: 1px solid #bcc3cb;
+    padding:2px 7px 2px 7px;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 12px;
+    vertical-align: middle;
+    width:100%;
+    
+}
+
+.entry:hover{
+    cursor: pointer;
+    background-color: #C8D8E4;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ie-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+.highlight{
+    background-color: #dfdfdf;
+    
+}
+
+.entry .title{
+    margin:0;
+    font-weight: 700;
+    color:#373F45;
+    font-family: 'Ubuntu', serif;
+    float: left;
+}
+
+
+.entry .date{
+    float:right;
+    color:#658ebe;
+    font-weight: 700;
+}
+.entry .author{
+    
+    float:left;
+}
+.entry .journal{
+    float:right;
+    font-style: italic;
+}
+
+
+
+.item{
+    border: 1px dotted #e2e2e2 !important;
+    background-color: transparent;
+    width:100%;
+}
+
+
+.rightpane .title{
+    font-size: 1.5em;
+    color:#373F45;
+    font-family: 'Ubuntu', serif;
+    font-weight: 700;
+    width: 100%;
+}
+#title_detail{height:auto;}
+.rightpane .journal{
+    font-size: 0.7em;
+    color:#636364;
+    font-weight: bold;
+    width: 70%;
+    height:15px;
+}
+.rightpane .year{
+    font-size: 0.7em;
+    color:#636364;
+    width: 16%;
+    height:15px;
+}
+.rightpane .bibkey{
+    font-size: 0.7em;
+    color:#636364;
+    width: 25%;
+    height:15px;
+}
+
+.rightpane .author{
+    font-size: 0.7em;
+    color:#658ebe;
+    font-weight: 700;
+
+    width: 100%;
+    height:15px;
+}
+
+
+.rightpane .bibtex{
+    margin:0;
+    color:#373F45;
+    color:#78858F;
+
+    font-size: 0.7em;
+font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+   
+    height: 20em;
+}
+
+
+
+.rightpane input:hover,
+.rightpane textarea:hover {
+  /* Change the background to a light yellow */
+
+  background-color: #e3f3fc;
+  /* A subtle transition never hurts */
+
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -ie-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  border: dashed 1px #808080 !important;
+  cursor: pointer;
+}
+
+.emph{color:red;}
+.hidebtn {
+    border:0px solid #fff;  /* needed for opera */
+    background:transparent;
+    cursor:pointer;
+    margin:0;
+    padding:0;
+}
+
+.coverimg:hover{
+    -webkit-filter: opacity(.4);
+  filter: opacity(.4);
+  cursor: pointer;;
+}
+
+.dz-upload {
+  display: inline !important;
+  visibility: visible !important;
+  height: 5px;
+  background-color: red;
+}
+.dz-preview {
+  /* dz-processing dz-image-preview dz-error*/
+
+  display: none;
+  visibility: hidden;
+}
+.dz-drag-hover {
+  border: 3px #87ccf2 dashed;
+  background-color: #b5dff7;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
